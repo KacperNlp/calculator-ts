@@ -1,0 +1,11 @@
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(233, 229, 229);
+}
+
+.calculator {
+  width: 340px;
+}
