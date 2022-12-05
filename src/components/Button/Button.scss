@@ -1,0 +1,24 @@
+.button {
+    width: 100%;
+    height: 70px;
+    background: lighten(rgb(20, 20, 20), 10);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        background: lighten(rgb(20, 20, 20), 15);
+    }
+}
+
+.calculator-buttons-list-right {
+    .button {
+        background: #5F8D4E;
+
+        &:hover {
+            background: darken(#5F8D4E, 15);
+        }
+    }
+}

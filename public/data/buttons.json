@@ -1,54 +1,120 @@
 {
-    "buttons" : [
+    "buttonsLeft" : [
+        {
+            "text": "AC",
+            "value": "AC",
+            "type": "AC",
+            "id": "ac"
+        },
+        {
+            "text": "÷",
+            "value": "÷",
+            "type": "Subtraction",
+            "id": "ac2"
+        },
+        {
+            "text": "x",
+            "value": "x",
+            "type": "Multiplication",
+            "id": "ac3"
+        },
         {
             "text": "1",
-            "value": 1,
+            "value": "1",
+            "type": null,
             "id": 1
         },
         {
             "text": "2",
-            "value": 2,
+            "value": "2",
+            "type": null,
             "id": 2
         },
         {
             "text": "3",
-            "value": 3,
+            "value": "3",
+            "type": null,
             "id": 3
         },
         {
             "text": "4",
-            "value": 4,
+            "value": "4",
+            "type": null,
             "id": 4
         },
         {
             "text": "5",
-            "value": 5,
+            "value": "5",
+            "type": null,
             "id": 5
         },
         {
             "text": "6",
-            "value": 6,
+            "value": "6",
+            "type": null,
             "id": 6
         },
         {
             "text": "7",
-            "value": 7,
+            "value": "7",
+            "type": null,
             "id": 7
         },
         {
             "text": "8",
-            "value": 8,
+            "value": "8",
+            "type": null,
             "id": 8
         },
         {
             "text": "9",
-            "value": 9,
+            "value": "9",
+            "type": null,
             "id": 9
         },
         {
+            "text": ".",
+            "value": ".",
+            "type": null,
+            "id": 11
+        },
+        {
             "text": "0",
-            "value": 0,
+            "value": "0",
+            "type": null,
             "id": 0
+        },
+        {
+            "text": "%",
+            "value": "%",
+            "type": null,
+            "id": "%"
+        }
+    ],
+    "buttonsRight": [
+        {
+            "text": "delete",
+            "value": "delete",
+            "type": "Delete",
+            "id": "delete"
+        },
+        {
+            "text": "-",
+            "value": "-",
+            "type": "Subtraction",
+            "id": "-"
+        },
+        {
+            "text": "+",
+            "value": "+",
+            "type": "Addition",
+            "id": "+"
+        },
+        {
+            "text": "=",
+            "value": "=",
+            "type": "Delete",
+            "id": "="
         }
     ]
 }

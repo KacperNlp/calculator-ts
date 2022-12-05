@@ -4,12 +4,13 @@ import './Button.scss';
 
 interface ButtonInterface {
     text: string,
-    value: number,
-    onClick: (value: number) => void;
+    type: string,
+    value: string,
+    onClick: (value: string, type: string | null) => void;
 }
 
-const Button: React.FC<ButtonInterface> = ({text, value, onClick}) => {
-    const onButtonClick = () => onClick(value);
+const Button: React.FC<ButtonInterface> = ({text, type, value, onClick}) => {
+    const onButtonClick = () => onClick(value, type);
 
     return ( 
         <button className="button" onClick={onButtonClick}>{text}</button>
