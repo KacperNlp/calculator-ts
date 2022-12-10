@@ -58,7 +58,6 @@ class MathLogic implements MathLogicInterface {
 
         const valueLength = value.length;
         const valueAfterConversion = Number(value.slice(0, valueLength - 1)) /  100;
-        console.log(valueAfterConversion);
         return valueAfterConversion;
     }
 }
