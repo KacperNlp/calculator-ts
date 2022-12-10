@@ -8,9 +8,8 @@ class MathLogic implements MathLogicInterface {
     mathematicalOperation(operation: string, firstValue: string, secondValue: string) {
         const {Addition, Subtraction, Division, Multiplication} = ButtonTypes;
         let result = '';
-        const firstValueNumber = Number(firstValue);
-        const secondValueNumber = Number(secondValue);
-        console.log(operation);
+        const firstValueNumber = this.isPercentage(firstValue);
+        const secondValueNumber = this.isPercentage(secondValue);
 
         switch(operation) {
             case Addition:
@@ -33,28 +32,34 @@ class MathLogic implements MathLogicInterface {
         return result;
     }
 
-    private additionOperation(firstValue: number, secondValue: number) {
+    private additionOperation(firstValue: number, secondValue: number): string {
         const result = String(firstValue + secondValue);
         return result;
     }
 
-    private subtractionOperation(firstValue: number, secondValue: number) {
+    private subtractionOperation(firstValue: number, secondValue: number): string {
         const result = String(firstValue - secondValue);
         return result;
     }
 
-    private divisionOperation(firstValue: number, secondValue: number) {
+    private divisionOperation(firstValue: number, secondValue: number): string {
         const result = String(firstValue / secondValue);
         return result;
     }
 
-    private multiplicationOperation(firstValue: number, secondValue: number) {
+    private multiplicationOperation(firstValue: number, secondValue: number): string {
         const result = String(firstValue * secondValue);
         return result;
     }
 
-    private percentageOperation(firstValue: number, secondValue: number) {
-        return 'Hello tehrr'
+    private isPercentage(value: string): number {
+        if(!value.includes('%'))
+            return Number(value);
+
+        const valueLength = value.length;
+        const valueAfterConversion = Number(value.slice(0, valueLength - 1)) /  100;
+        console.log(valueAfterConversion);
+        return valueAfterConversion;
     }
 }
 

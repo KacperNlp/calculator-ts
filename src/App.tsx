@@ -15,7 +15,7 @@ export enum ButtonTypes {
   Division = "Division",
   Equal = "Equal",
   Multiplication = "Multiplication",
-  Subtraction = "Subtraction"
+  Subtraction = "Subtraction",
 }
 
 const App = () => {
