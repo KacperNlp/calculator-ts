@@ -4,91 +4,91 @@
             "text": "AC",
             "value": "AC",
             "type": "AC",
-            "id": "ac"
+            "id": 1
         },
         {
             "text": "÷",
             "value": "÷",
-            "type": "Subtraction",
-            "id": "ac2"
+            "type": "Division",
+            "id": 2
         },
         {
             "text": "x",
             "value": "x",
             "type": "Multiplication",
-            "id": "ac3"
+            "id": 3
         },
         {
             "text": "1",
             "value": "1",
             "type": null,
-            "id": 1
+            "id": 4
         },
         {
             "text": "2",
             "value": "2",
             "type": null,
-            "id": 2
+            "id": 5
         },
         {
             "text": "3",
             "value": "3",
             "type": null,
-            "id": 3
+            "id": 6
         },
         {
             "text": "4",
             "value": "4",
             "type": null,
-            "id": 4
+            "id": 7
         },
         {
             "text": "5",
             "value": "5",
             "type": null,
-            "id": 5
+            "id": 8
         },
         {
             "text": "6",
             "value": "6",
             "type": null,
-            "id": 6
+            "id": 9
         },
         {
             "text": "7",
             "value": "7",
             "type": null,
-            "id": 7
+            "id": 11
         },
         {
             "text": "8",
             "value": "8",
             "type": null,
-            "id": 8
+            "id": 12
         },
         {
             "text": "9",
             "value": "9",
             "type": null,
-            "id": 9
+            "id": 13
         },
         {
             "text": ".",
             "value": ".",
             "type": null,
-            "id": 11
+            "id": 14
         },
         {
             "text": "0",
             "value": "0",
             "type": null,
-            "id": 0
+            "id": 15
         },
         {
             "text": "%",
             "value": "%",
             "type": null,
-            "id": "%"
+            "id": 16
         }
     ],
     "buttonsRight": [
@@ -96,25 +96,25 @@
             "text": "delete",
             "value": "delete",
             "type": "Delete",
-            "id": "delete"
+            "id": 17
         },
         {
             "text": "-",
             "value": "-",
             "type": "Subtraction",
-            "id": "-"
+            "id": 18
         },
         {
             "text": "+",
             "value": "+",
             "type": "Addition",
-            "id": "+"
+            "id": 19
         },
         {
             "text": "=",
             "value": "=",
-            "type": "Delete",
-            "id": "="
+            "type": "Equal",
+            "id": 20
         }
     ]
 }
